@@ -1,0 +1,18 @@
+.backgroudFull {
+  background: url(../img/index.jpg) fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+.jumbotron {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+body {
+  background: none;
+}
